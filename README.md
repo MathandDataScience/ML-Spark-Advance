@@ -59,7 +59,7 @@ This dataset was then used to develop the models. A default model selector was s
  <em>Figure 6: Model Section bar Graph of RMSE </em>
 </p>
 
-After further development of the random forest model trained and validated with a 10 Cross fold validation a RMSE value increased to 3.52%. Parameters and hyper-parameters can be found in the code appendix 1. On prediction of the test set the random forest model obtained a RMSE of 4.52%. two heatmap were generated from the test data and the predicted test set, the data points that were used came from file “34.MSQ”, due to how the data was spilt and shuffled this only gave 33 point from file “34.MSQ”. One heatmap was created from of the “Y” values and one of the predicted “Y” values shown in Figure 7 and 8 respectively. 
+After further development of the random forest model trained and validated with a 10 Cross fold validation a RMSE value increased to 3.52%. Parameters and hyper-parameters can be found in the code. On prediction of the test set the random forest model obtained a RMSE of 4.52%. two heatmap were generated from the test data and the predicted test set, the data points that were used came from file “34.MSQ”, due to how the data was spilt and shuffled this only gave 33 point from file “34.MSQ”. One heatmap was created from of the “Y” values and one of the predicted “Y” values shown in Figure 7 and 8 respectively. 
 
 
 <p align="center">
@@ -76,7 +76,7 @@ After further development of the random forest model trained and validated with 
  <em>Figure 8: Heatmap predicted Y test data, file 34.msq data points found in test set shown </em>
 </p>
 
-Development of a Shallow Neural Network (SNN)model, trained and validated with a 3 Cross fold validation got a RMSE value of 5.00%. This model used Ridge (L2) Regularization and two hidden layers. One layer used TANH at 120 nodes and other used ELU at 15 nodes. Other parameter can be found in the code appendix 2. On prediction of the test set the SNN model obtained a RMSE of 5.13%. A heatmap was generated from the predicted Y values. The data points that were used to create the heat map came from file “34.MSQ” because the data was reshaped from all the file and made into one large data set then split with a shuffle the test set did not contain all the values of one given file.  Despite this a partial heat map can be generated.  see figure 9. 
+Development of a Shallow Neural Network (SNN)model, trained and validated with a 3 Cross fold validation got a RMSE value of 5.00%. This model used Ridge (L2) Regularization and two hidden layers. One layer used TANH at 120 nodes and other used ELU at 15 nodes. Other parameter can be found in the code. On prediction of the test set the SNN model obtained a RMSE of 5.13%. A heatmap was generated from the predicted Y values. The data points that were used to create the heat map came from file “34.MSQ” because the data was reshaped from all the file and made into one large data set then split with a shuffle the test set did not contain all the values of one given file.  Despite this a partial heat map can be generated.  see figure 9. 
 
 <p align="center">
  <img  src="https://github.com/MathandDataScience/ML-Spark-Advance/blob/main/Pictures/Picture9.png">
@@ -85,7 +85,7 @@ Development of a Shallow Neural Network (SNN)model, trained and validated with a
  <em>Figure 9: Heat map of predicted Y values from SNN model </em>
 </p>
 
-For final model developed was a Deep Neural Network (DNN). This model trained using batch normalization, L2 Regularization and Dropout, see Appendix 3 for more parameters and hyper-parameters. The DNN model obtained a validation RMSE of 7.04% and a test set RMSE of 5.27%. A prediction heatmap was generated as describe before and is shown in figure 10. 
+For final model developed was a Deep Neural Network (DNN). This model trained using batch normalization, L2 Regularization and Dropout, see code for more parameters and hyper-parameters. The DNN model obtained a validation RMSE of 7.04% and a test set RMSE of 5.27%. A prediction heatmap was generated as describe before and is shown in figure 10. 
 
 
 <p align="center">
