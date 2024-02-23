@@ -89,7 +89,7 @@ For final model developed was a Deep Neural Network (DNN). This model trained us
 
 
 <p align="center">
- <img src="https://github.com/MathandDataScience/ML-Spark-Advance/blob/main/Pictures/Picture10.png">
+ <img width="50%" height="50%" src="https://github.com/MathandDataScience/ML-Spark-Advance/blob/main/Pictures/Picture10-1.png">
 </p>
 <p align="center">
  <em>Figure 10: Heat map of predicted Y values from DNN model </em>
@@ -108,7 +108,7 @@ The three models presented all obtain a low RMSE values, going only by this metr
 
 
 <p align="center">
- <img  src="https://github.com/MathandDataScience/ML-Spark-Advance/blob/main/Pictures/Picture12.png">
+ <img width="25%" height="25%" src="https://github.com/MathandDataScience/ML-Spark-Advance/blob/main/Pictures/Picture12.png">
 </p>
 <p align="center">
  <em>Figure 12: R-Squared of SNN model </em>
@@ -121,7 +121,7 @@ The final model, DNN preformed the worst out of the three with a 92% R-squared v
  <img  src="https://github.com/MathandDataScience/ML-Spark-Advance/blob/main/Pictures/Picture13.png">
 </p>
 <p align="center">
- <em>Figure 10: R-Squared of DNN model </em>
+ <em>Figure 13: R-Squared of DNN model </em>
 </p>
 
 
